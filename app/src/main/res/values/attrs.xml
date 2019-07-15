@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AutoCompleteTextView">
+
+        <!-- Defines the hint displayed in the drop down menu. -->
+        <attr name="completionHint" format="string" />
+        <!-- Defines the hint view displayed in the drop down menu. -->
+        <attr name="completionHintView" format="reference" />
+        <!--
+         Defines the number of characters that the user must type before
+         completion suggestions are displayed in a drop down menu.
+        -->
+        <attr name="completionThreshold" format="integer" min="1" />
+        <!-- Selector in a drop down list. -->
+        <attr name="dropDownSelector" format="reference|color" />
+        <!-- Amount of pixels by which the drop down should be offset vertically. -->
+        <attr name="dropDownVerticalOffset" format="dimension" />
+        <!-- Amount of pixels by which the drop down should be offset horizontally. -->
+        <attr name="dropDownHorizontalOffset" format="dimension" />
+        <attr name="dropDownWidth" format="dimension" />
+        <!--
+             View to anchor the auto-complete dropdown to. If not specified, the text view itself
+             is used.
+        -->
+        <attr name="dropDownAnchor" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="Workspace">
+        <attr name="default_screen" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="Theme">
+        <attr name="alertDialogStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="MMAlertDialog">
+        <attr name="fullDark" format="reference|color" />
+        <attr name="topDark" format="reference|color" />
+        <attr name="centerDark" format="reference|color" />
+        <attr name="bottomDark" format="reference|color" />
+        <attr name="fullBright" format="reference|color" />
+        <attr name="topBright" format="reference|color" />
+        <attr name="centerBright" format="reference|color" />
+        <attr name="bottomBright" format="reference|color" />
+        <attr name="bottomMedium" format="reference|color" />
+        <attr name="centerMedium" format="reference|color" />
+    </declare-styleable>
+    <declare-styleable name="TabPagerWidget">
+
+        <!-- visibletabnum 设置能看到的TAB数，超过这个数需通过拨动才能看到 -->
+        <attr name="visibletabnum" format="integer" max="6" min="2" />
+        <!-- 定义BAR的高度 -->
+        <attr name="barheight" format="dimension" />
+        <attr name="selectedbarheight" format="dimension" />
+        <attr name="selectedbaroffset" format="dimension" />
+        <!--定义底部导航条宽度-->
+        <attr name="selectedbarlength" format="dimension" />
+        <!-- selectedbar 设置选中的TAB底部的条图片或颜色 -->
+        <attr name="selectedbar" format="reference|color" />
+        <!-- selectedbar 设置未选中的TAB底部的条图片或颜色 -->
+        <attr name="unselectedbar" format="reference|color" />
+    </declare-styleable>
+    <declare-styleable name="RecycledTextView">
+        <attr name="imagealign" format="string" />
+    </declare-styleable>
+    <declare-styleable name="LineEllipsizingTextView">
+        <attr name="ellipsizeline" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="OverlayLayout">
+        <attr name="foreground" format="reference|color" />
+        <attr name="foregroundAlphaRate" format="float" />
+        <attr name="noRefreshDrawableStateChildId" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="MarkView">
+        <attr name="rightangleEdgeLeft" format="dimension" />
+        <attr name="rightangleEdgeTop" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="MusicFuncView">
+        <attr name="funclogo" format="reference" />
+        <attr name="funcname" format="reference|string" />
+        <attr name="showdownload" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="RatingBarView">
+        <attr name="ratingvalue" format="integer" />
+        <attr name="ratingtextsizevalue" format="integer" />
+        <attr name="ratingtextsizeunit" format="string" />
+        <attr name="ratingtextcolor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="FishBowlView">
+        <attr name="water_color" format="reference|color" />
+        <attr name="water_center_color" format="reference|color" />
+        <attr name="water_end_color" format="reference|color" />
+        <attr name="fishbowl_progress" format="integer" />
+        <attr name="fishbowl_maxprogress" format="integer" />
+        <attr name="fishbowl_drawable_id" format="reference" />
+        <attr name="fishbowl_wavetime" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="TrafficProgressBar">
+        <attr name="t_roundColor" format="reference|color" />
+        <attr name="t_roundProgressColor" format="reference|color" />
+        <attr name="t_chinaTextColor" format="reference|color" />
+        <attr name="t_chinaText" format="string" />
+        <attr name="t_percentTextColor" format="reference|color" />
+        <attr name="t_typeTextColor" format="reference|color" />
+        <attr name="t_chinaTextSize" format="dimension" />
+        <attr name="t_percentTextSize" format="dimension" />
+        <attr name="t_typeTextSize" format="dimension" />
+        <attr name="t_roundWidth" format="dimension"></attr>
+        <attr name="t_roundProgressWidth" format="dimension"></attr>
+        <attr name="t_max" format="integer"></attr>
+        <attr name="t_progress" format="integer"></attr>
+        <attr name="t_textIsDisplayable" format="boolean"></attr>
+        <attr name="t_style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+        <attr name="t_textSize" format="integer"></attr>
+        <attr name="t_isVisible_Stroke" format="boolean"></attr>
+    </declare-styleable>
+    
+    <declare-styleable name="AddAndSub">
+        <attr name="chinaText" format="string" />
+        <attr name="chinaText1" format="string" />
+        <attr name="chinaText2" format="string" />
+        <attr name="addandsub_style" format="integer"/>
+    </declare-styleable>
+    
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    
+    <declare-styleable name="DownView">
+        <attr name="width_color" format="reference|color" />
+        <attr name="progress_color" format="reference|color" />
+        <attr name="_progress" format="integer" />
+        <attr name="_maxprogress" format="integer" />
+        <attr name="_strokewidth" format="dimension" />
+        <attr name="_roundx" format="dimension" />
+        <attr name="_roundy" format="dimension" />
+        <attr name="with_cover" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="RoundTextView">
+        <attr name="background_fillcolor" format="reference|color" />
+        <attr name="t_roundx" format="dimension" />
+        <attr name="t_roundy" format="dimension" />
+        <attr name="strokewidth_color" format="reference|color" />
+        <attr name="v_strokewidth" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="RoundLinearlayout">
+        <attr name="l_background_fillcolor" format="reference|color" />
+        <attr name="l_roundx" format="dimension" />
+        <attr name="l_roundy" format="dimension" />
+        <attr name="l_strokewidth_color" format="reference|color" />
+        <attr name="l_strokewidth" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="RoundRelativeLayout">
+        <attr name="r_background_fillcolor" format="reference|color" />
+        <attr name="r_roundx" format="dimension" />
+        <attr name="r_roundy" format="dimension" />
+        <attr name="r_strokewidth_color" format="reference|color" />
+        <attr name="r_strokewidth" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="HorizFlipView">
+        <attr name="heightwidthratio" format="float" />
+    </declare-styleable>
+    
+        <declare-styleable name="FlowView">
+        <attr name="lineSpacing" format="dimension" />
+        <attr name="maxLine" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="ShadeProgressView">
+        <attr name="safer_radius" format="dimension"/>
+        <attr name="safer_strokeWidth" format="dimension"/>
+        <attr name="safer_circle_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="LineEditText">
+        <attr name="line_color" format="color"/>
+        <attr name="line_width" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="CustomFrequentlyLayout">
+        <attr name="frequently_tyle" format="integer" />
+        <attr name="frequently_name" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="AppCommentRatingBar">
+        <!--星星间距-->
+        <attr format="dimension" name="starDistance"/>
+        <!--星星大小-->
+        <attr format="dimension" name="starSize"/>
+        <attr format="dimension" name="starHeight" />
+        <!--星星个数-->
+        <attr format="integer" name="starCount"/>
+        <!--星星空图-->
+        <attr format="reference" name="starEmpty"/>
+        <!--星星满图-->
+        <attr format="reference" name="starFill"/>
+    </declare-styleable>
+    <declare-styleable name="ShapeView">
+        <attr name="bottomRightRadius" format="dimension" />
+        <attr name="bottomLeftRadius" format="dimension" />
+        <attr name="topRightRadius" format="dimension" />
+        <attr name="topLeftRadius" format="dimension" />
+        <attr name="shape" format="string" />
+        <attr name="radius"/>
+    </declare-styleable>
+    <declare-styleable name="SwipeCaptchaView">
+        <attr name="captchaWidth" format="dimension"/>
+        <attr name="captchaHeight" format="dimension"/>
+        <attr name="matchDeviation" format="dimension"/>
+    </declare-styleable>
+    <!--环形进度View-->
+    <declare-styleable name="CircleRingProgressView">
+        <!--圆环颜色-->
+        <attr name="crp_roundColor" format="color" />
+        <!--圆环的宽度-->
+        <attr name="crp_roundWidth" format="dimension" />
+        <!--圆环上的进度颜色-->
+        <attr name="crp_progressColor" format="color" />
+        <!--圆环上的进度宽度-->
+        <attr name="crp_progressWidth" format="dimension" />
+        <!--进度值的最大值，一般为100-->
+        <attr name="crp_max" format="integer" />
+        <!--开始角度，指定进度初始点的绘制位置，设置值应在90-360之间-->
+        <attr name="crp_startAngle" format="integer" />
+        <!--告警颜色-->
+        <attr name="crp_warnColor" format="color" />
+        <!--告警时使用的起始渐变颜色-->
+        <attr name="crp_warnStartColor" format="color" />
+        <!--告警时使用的结束渐变颜色-->
+        <attr name="crp_warnEndColor" format="color" />
+        <!--圆环背景渐变色起始颜色-->
+        <attr name="crp_startColor" format="color"/>
+        <!--圆环背景渐变色终止颜色-->
+        <attr name="crp_endColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="JCVideoPlayer">
+        <attr name="screen" format="integer" />
+    </declare-styleable>
+</resources>

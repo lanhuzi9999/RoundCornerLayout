@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.roundcornerlayout.widget.ShapeLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:radius="6dp"
+    app:shape="round"
+    tools:context=".MainActivity">
+
+    <com.example.roundcornerlayout.widget.ShapeImageView
+        android:id="@+id/app_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/qq"
+        app:radius="6dp"
+        app:shape="round" />
+
+    <com.example.roundcornerlayout.widget.ShapeRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/dp_20"
+        app:radius="8dp"
+        app:shape="round">
+
+        <com.example.roundcornerlayout.widget.ShapeButton
+            android:id="@+id/shape_btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/banner_default"
+            android:scaleType="fitXY"
+            app:radius="10dp"
+            app:shape="round" />
+
+        <com.example.roundcornerlayout.widget.ShapeTextView
+            android:id="@+id/shape_textview"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="16dp"
+            android:layout_below="@+id/shape_btn"
+            android:background="@color/gray_text_color"
+            android:text="ShapeText"
+            android:gravity="center"
+            android:textSize="12dp"
+            app:radius="4dp"
+            app:shape="round" />
+    </com.example.roundcornerlayout.widget.ShapeRelativeLayout>
+</com.example.roundcornerlayout.widget.ShapeLinearLayout>
